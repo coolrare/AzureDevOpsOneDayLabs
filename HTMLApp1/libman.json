@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "@types/applicationinsights-js@1.0.7",
+      "destination": "Scripts/@types/applicationinsights-js",
+      "files": [
+        "index.d.ts"
+      ]
+    }
+  ]
+}
