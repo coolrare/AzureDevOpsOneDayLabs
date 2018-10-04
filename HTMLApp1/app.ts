@@ -12,7 +12,11 @@
     }
 
     start() {
-        this.timerToken = setInterval(() => this.span.innerHTML = new Date().toUTCString(), 500);
+        this.timerToken = setInterval(() => {
+            var now = new Date().toUTCString();
+            this.span.innerHTML = now;
+            appInsights.trackEvent('Timer', { 'now': now });
+        }, 500);
     }
 
     stop() {
@@ -26,3 +30,4 @@ window.onload = () => {
     var greeter = new Greeter(el);
     greeter.start();
 };
+

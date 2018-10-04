@@ -259,3 +259,6 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/HTMLApp1/app.js
+/HTMLApp1/Scripts
+/HTMLApp1/app.js.map

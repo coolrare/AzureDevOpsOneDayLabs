@@ -56,6 +56,10 @@
     <TypeScriptSourceRoot />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="libman.json" />
+    <Content Include="Scripts\applicationinsights-js\API-reference.md" />
+    <Content Include="Scripts\applicationinsights-js\dist\ai.0.js.map" />
+    <Content Include="Scripts\applicationinsights-js\dist\ai.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -66,10 +70,13 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="index.html" />
+    <Content Include="Scripts\applicationinsights-js\dist\ai.0.js" />
+    <Content Include="Scripts\applicationinsights-js\dist\ai.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="app.ts" />
+    <TypeScriptCompile Include="Scripts\%40types\applicationinsights-js\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
