@@ -9,15 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC5App.Tests", "MVC5App.Te
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01CCBC86-7FAD-4063-913C-B3D0E95C0649}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		azure-pipelines.yml = azure-pipelines.yml
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore21", "AspNetCore21\AspNetCore21.csproj", "{6CF83720-0EB7-40B2-BF55-96108217759C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore21", "AspNetCore21\AspNetCore21.csproj", "{6CF83720-0EB7-40B2-BF55-96108217759C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLApp1", "HTMLApp1\HTMLApp1.csproj", "{2574F603-4B6C-4A30-BFDD-E3BC09EEDFDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{C57D25A9-7665-42F0-B6BC-1F3AEA38E184}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{C57D25A9-7665-42F0-B6BC-1F3AEA38E184}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
