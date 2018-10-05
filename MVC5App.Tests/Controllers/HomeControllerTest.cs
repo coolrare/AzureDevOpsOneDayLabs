@@ -35,7 +35,7 @@ namespace MVC5App.Tests.Controllers
             ViewResult result = controller.About(2) as ViewResult;
 
             // Assert
-            Assert.AreEqual("Your application description page.", result.ViewBag.Message);
+            Assert.AreEqual(null, result.ViewBag.Message);
         }
 
         [TestMethod]
